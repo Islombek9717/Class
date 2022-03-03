@@ -12,11 +12,13 @@ namespace Class
         public string author;
         public int pages;
 
-        public Book (string aTitle, string aAuthor, int Apages)
+        public Book (string aTitle, string aAuthor, int aPages)
         {
             title = aTitle;
             author = aAuthor;
-            pages = Apages;
+            pages = aPages;
         }
+
+       
     }
 }
