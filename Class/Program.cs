@@ -19,6 +19,14 @@ namespace Class
 
             Console.WriteLine(student1.HasHonors());
             Console.WriteLine(student2.HasHonors());
+
+
+            Movie avangers = new Movie("The Avengers", "Joss Wheadon", "PG-13");
+            Movie shrek = new Movie("Shrek", "Adam Adamson", "PG");
+
+            shrek.Rating = "R";
+            Console.WriteLine(shrek.Rating);
+
             Console.ReadLine();
         }
     }
